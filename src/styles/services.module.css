@@ -1,0 +1,165 @@
+.dataService p,.teamTitle p,.skill b,.feedData p,.clContaier h4{
+    color: #0E5AF2;
+    font-weight: bold;
+}
+.dataService,.teamTitle{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.servicCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+}
+.serviceContainer{
+    background-color: #ccd5dd12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+.banner{
+    background-image: url(/public/images/hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+}
+.banner h5,.banner p{
+    color: black;
+}
+.teamContainer{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teamImg{
+    display: flex;
+    width: 90%;
+    overflow-x: auto;
+}
+.teamImg::-webkit-scrollbar {
+    display: none;
+}
+.faqContent{
+    display: inline-flex;
+    width: 90%;
+    flex-direction: column;
+}
+.faqContainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #0E5AF2;
+    color:white;
+    padding: 60px 0px 40px 0px;
+    /* height: 400px; */
+}
+.cntBtn{
+    background-color: #0E5AF2;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.faqContent p{
+    font-weight: bold;
+}
+.faqContent h1{
+    margin-bottom: 40px;
+}
+.skillContainer section{
+    width: 70%;
+}
+.skillContainer{
+    padding: 60px;
+}
+.skill h2{
+    margin: 25px 0px 25px 0px;
+}
+.skillBar progress{
+    width: 100%;
+}
+.skillBar p{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.skillBar{
+    margin: 50px 0px 50px 0px;
+}
+.skillBar div{
+    margin-top: 20px;
+}
+.feedbackContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+}
+.feedData{
+    margin: 40px 0px 40px 0px;
+}
+.feedbackContainer section{
+    width: 90%;
+}
+.feedCards{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    overflow-x:auto;
+}
+.feedCards::-webkit-scrollbar {
+    display: none;
+}
+.clContaier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+}
+.clientlst{
+    width: 90%;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    overflow-x: auto;
+}
+.clientlst::-webkit-scrollbar {
+    display: none;
+}
+.rightArrow{
+    position: absolute;
+    margin-top: 160px;
+    right:10vw;
+    width: 50px;
+    cursor: pointer;
+}
+.leftArrow{
+    position: absolute;
+    margin-top: 160px;
+    left:10vw;
+    width: 50px;
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .skillContainer section{
+        width: 100%;
+    }
+}
+@media(max-width:696px){
+    .banner h5,.banner p{
+        color: white;
+    }
+    .banner{
+        height: fit-content;
+    }
+}

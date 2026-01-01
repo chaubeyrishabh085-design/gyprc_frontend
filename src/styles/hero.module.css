@@ -1,0 +1,44 @@
+.heroContainer{
+    width: 100%;
+    height: 500px;
+    background-image: url(/public/images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroContent{
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family:monospace;
+}
+.heroPara{
+    color: black;
+    max-width: 50%;
+}
+.btn{
+    color: white;
+    background-color: #0E5AF2;
+    padding: 12px 25px 12px 25px;
+    border-radius: 3px;
+    width:fit-content;
+}
+
+@media(max-width:1000px){
+    .heroContainer{
+        height: 250px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 7px 20px 7px 20px;
+    }
+    .heroPara{
+        display: none;
+    }
+    .heroContent{
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+a:hover{
+    color:black;
+}
+.socialContainer{
+    background-color: #0E5AF2;
+    color: #FFFFFF;
+    height: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+}
+.socialContainer i , .socialContainer span{
+    margin-right: 20px;
+}
+.headCard{
+    /* width:33%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headCard>span{
+    margin-left: 20px;
+    text-align: left;
+}
+.logo_header{
+    display: flex;
+    align-items: center;
+}
+.logo_header img{
+    width:65px;
+}
+.logo_header>span{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0E5AF2;
+    margin-left: 10px;
+}
+.contact_head{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cecfd5;
+    margin: 20px 70px 0px 70px;
+    padding-bottom: 25px;
+}
+.mhide{
+    display: flex;
+    width:66%;
+    justify-content: space-around;
+}
+
+.navigation a{
+    color:#070707bf;
+    font-weight:500;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding: 8px;
+}
+.navigation a:hover{
+    background-color: #0E5AF2;
+    color: white;
+}
+.navigation>ul{
+    list-style: none;
+    display: flex;
+}
+.navigation li{
+    margin: 12px;
+    /* padding: 10px; */
+}
+.navigation{
+    margin: 0px 0px 0px 25px;
+}
+.humberger{
+    display: none;
+}
+#mboileLogo{
+    display: none;
+}
+.crossBtn{
+    font-size: 20px;
+    color: #0E5AF2;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    display: none;
+}
+.mtop{
+    background-color: #72c3c321;
+    padding-bottom: 20px;
+}
+.headCard b{
+    font-size:20px;
+}
+
+@media(max-width:1000px){
+    .socialContainer{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .contact_container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px 20px 0px 20px;
+    }
+    .mhide{
+        display: none;
+    }
+    .contact_head{
+        width: fit-content;
+    }
+    .logo_header>span{
+        font-size: 25px;
+    }
+    .contact_container>div{
+        margin-top: 20px;
+    }
+    .navigation>ul{
+        list-style:circle;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        padding-left: 0px;
+        display:none;
+    }
+    .humberger{
+        display: inline-block;
+        color: #0E5AF2;
+        font-size: 29px;
+        padding: 5px 13px 5px 13px;
+        background-color: #ebedf1;
+        margin: 15px 0px 15px 0px;
+    }
+    #mboileLogo{
+        display: block;
+        padding-left: 10px;
+    }
+    .navigation li{
+        margin-left: 50px;
+    }
+    .crossBtn{
+        display: block;
+    }
+}
+
+

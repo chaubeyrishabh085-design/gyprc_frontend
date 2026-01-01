@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Offer of Employment</title>
+<style>
+body { margin: 0; padding: 0; font-family: "Times New Roman", Times, serif; }
+.a4 { width: 210mm; height: 297mm; margin: 0 auto; position: relative; overflow: hidden; background-image: url("/assets/Letterheads/GYPRC/Offerletter/background image.png"); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.header-clip { width: 210mm; overflow: hidden; }
+.header { width: 228mm; margin-top: -23mm; position: relative; }
+.header img.bg { width: 100%; display: block; }
+.header .logo { position: absolute; left: 20mm; top: 20mm; width: 50mm; }
+.content { padding: 20mm; padding-top: 10mm; line-height: 1.6; }
+.content h1 { text-align: center; font-size: 24pt; margin-bottom: 20pt; font-weight: bold; }
+.content p { margin-bottom: 10pt; text-align: justify; }
+.content .date { text-align: right; margin-bottom: 20pt; }
+.content .address { margin-bottom: 20pt; }
+.content .salutation { margin-bottom: 20pt; }
+.content .body { margin-bottom: 20pt; }
+.content .closing { margin-bottom: 20pt; }
+.signature { margin-top: 40pt; text-align: left; }
+.signature img { width: 80px; height: auto; }
+.footer { position: absolute; bottom: 20mm; left: 20mm; right: 20mm; text-align: center; font-size: 10pt; color: #666; }
+</style>
+</head>
+<body>
+<div class="a4">
+  <div class="header-clip">
+    <div class="header">
+      <img src="/assets/Letterheads/GYPRC/Offerletter/header.png" class="bg" alt="">
+      <img src="/assets/Letterheads/GYPRC/Offerletter/width_464.webp" class="logo" alt="">
+    </div>
+  </div>
+  <div class="content">
+    <h1>Offer of Employment</h1>
+    <div class="date">{{date}}</div>
+    <div class="address">
+      <p>{{name}}</p>
+      <p>{{addressLine1}}</p>
+      <p>{{addressLine2}}</p>
+      <p>{{addressLine3}}</p>
+    </div>
+    <div class="salutation">
+      <p>Dear {{name}},</p>
+    </div>
+    <div class="body">
+      <p>We are pleased to offer you the position of <strong>{{designation}}</strong> at GYPRC Consultancy Services Pvt. Ltd.</p>
+      <p>Your annual stipend will be <strong>₹{{annualStipend}}</strong>.</p>
+      <p>This offer is contingent upon successful completion of your internship and positive performance evaluation.</p>
+      <p>Please sign and return this letter to indicate your acceptance of this offer.</p>
+    </div>
+    <div class="closing">
+      <p>Sincerely,</p>
+      <p>GYPRC Consultancy Services Pvt. Ltd.</p>
+    </div>
+    <div class="signature">
+      <img src="/assets/Letterheads/GYPRC/Offerletter/stamp.webp" alt="">
+    </div>
+  </div>
+  <div class="footer">
+    <p>GYPRC Consultancy Services Pvt. Ltd. | www.gyprc.com | info@gyprc.com</p>
+  </div>
+</div>
+</body>
+</html>

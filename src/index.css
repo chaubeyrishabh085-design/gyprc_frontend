@@ -1,0 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+/* .active {
+ 
+    color: red;
+    font-weight: bold;
+
+  } */
+  #root {
+    max-width: 1670px;
+    position: relative;
+    margin: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+  }
+
+
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-pagination .swiper-pagination-bullet{
+  background-color: rgb(7, 50, 70);
+  border: 3px solid white;
+  width: 15px;
+padding: 7px;
+border-radius: 50%;
+  height: 15px;
+}
+.logobg{
+  background-color: rgba(255, 255, 255, 0.952);
+}

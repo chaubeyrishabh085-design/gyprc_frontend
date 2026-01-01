@@ -1,0 +1,80 @@
+.offer-letter-container {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.a4 {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://res.cloudinary.com/dzjgoqfxm/image/upload/v1767267874/background_image_klkybg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-clip {
+  width: 210mm;
+  overflow: hidden;
+}
+
+.header {
+  width: 228mm;
+  margin-top: -23mm;
+  position: relative;
+}
+
+.header img.bg {
+  width: 100%;
+  display: block;
+}
+
+.header .logo {
+  position: absolute;
+  left: 0mm;
+  top: 34mm;
+  height: 80px;
+}
+
+.content {
+  padding: 12mm 20mm 45mm;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  z-index: 2;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.subject {
+  text-align: center;
+  font-size: 29px;
+  font-weight: bold;
+  margin: 28px 0 22px;
+}
+
+.content p {
+  margin: 7px 0;
+  text-align: justify;
+}
+
+.content ul {
+  margin-left: 20px;
+}
+
+.note {
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 18mm;
+  left: 20mm;
+  right: 20mm;
+  font-size: 14.5px;
+}
